@@ -1,0 +1,131 @@
+.box{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    margin: 90px auto;
+    width: 100%; 
+ }
+ #main1{
+  width: 60%;
+  height: 40px;  
+  color:black;
+  display: flex;
+  flex-direction: row;
+  background-color: #FCD34D;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#part1{
+  display: flex;
+  
+}
+#main3{
+  width: 60%;
+  height: 80px;  
+  color:black;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ #main4{
+    width: 60%;
+    height: 250px;  
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    display: flex;
+    
+  }
+
+  #main5{
+    width:60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #FCD34D;
+    color:black;
+  }
+  #main6{
+    width:60%;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    color:black;
+  }
+  #main8{
+    width: 60%;
+    height: 40px;  
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+    display:flex;
+  }
+  #main2{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color:#FCD34D;
+    color: black;
+    font-size: 20px;
+    padding-top: 14px;
+  }
+  #main2 div:nth-of-type(1) {flex-grow: 1;}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #FCD34D;
+    float: right;
+    padding-left: 400px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #FCD34D;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:#FCD34D;
+    color: white;
+  }
+  .button {
+    background-color:#FCD34D; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .button4 {border-radius: 10px;}
+  
+  #ima{
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+ #logos{
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   padding-bottom: 40px;
+ }
